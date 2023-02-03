@@ -1,0 +1,128 @@
+.farbtastic {
+  position: relative;
+}
+.farbtastic * {
+  position: absolute;
+  cursor: crosshair;
+}
+.farbtastic, .farbtastic .wheel {
+  width: 195px;
+  height: 195px;
+}
+.farbtastic .color, .farbtastic .overlay {
+  top: 47px;
+  left: 47px;
+  width: 101px;
+  height: 101px;
+}
+.farbtastic .wheel {
+  background: url(../img/wheel.png) no-repeat;
+  width: 195px;
+  height: 195px;
+}
+.farbtastic .overlay {
+  background: url(../img/mask.png) no-repeat;
+}
+.farbtastic .marker {
+  width: 17px;
+  height: 17px;
+  margin: -8px 0 0 -8px;
+  overflow: hidden;
+  background: url(../img/marker.png) no-repeat;
+}
+
+#ntc {
+  padding: 24px;
+}
+
+#ntc #picker {
+  float: left;
+}
+
+#ntc #colortag {
+  float: left;
+  margin-left: 40px;
+}
+
+#ntc #colorname sup {
+  font-size: 0.6em;
+  margin-left: 6px;
+  color: #AAA;
+}
+
+#ntc #colorname sup#solid {
+  color: #966;
+}
+
+#ntc #colorpick {
+  margin-top: -24px;
+  margin-left: 360px;
+  width: 197px;
+  margin-bottom: 4px;
+  font-size: 0.8em;
+  color: #000;
+}
+
+#ntc #colorpick select {
+  width: 190px;
+  height:30px;
+}
+
+#ntc #colorpick .w {
+  color: #FFF;
+}
+
+#ntc #colorbox {
+  position: relative;
+  border: 4px solid #CCC;
+  width: 550px;
+  height: 55px;
+}
+
+#ntc #colorsolid {
+  position: absolute;
+  border: 2px solid #DDD;
+  margin: 9px;
+  left: 492px;
+  width: 32px;
+  height: 32px;
+}
+
+#ntc #colorpanel {
+  position: relative;
+  font-weight: bold;
+  color: #000;
+  border: 4px solid #CCC;
+  border-top: 0;
+  width: 550px;
+  height: 55px;
+}
+
+#ntc #colorhex {
+  position: absolute;
+  top: 19px;
+  left: 16px;
+}
+
+
+#ntc #colorinp {
+  position: absolute;
+  top: 16px;
+  left: 120px;
+}
+
+#ntc #colorrgb {
+  position: absolute;
+  top: 19px;
+  left: 350px;
+}
+
+#ntc #colorlegend {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 8px;
+}
+
+#ntc .clear {
+  clear: both;
+}

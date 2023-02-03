@@ -1,0 +1,79 @@
+.top-header{
+	border-top: 2px solid #cb0004;
+}
+/*.top-header .container:before{
+	height: 35px;
+	width: 218px;
+	background-image:url(../images/cny-elements/top-header.png);
+	content: '';
+	display: inline-block;
+	margin-bottom: -5px;
+}*/
+#home-slider{
+	background-image: url(../images/cny-elements/wave.png);
+}
+.main-header .header-search-box .form-inline .input-search{
+	background: #fff;
+	padding: 9px 0;
+}
+/*.header-search-box .form-inline:before{
+	background-image: url(../images/cny-elements/search_angpao.png);
+	content: '';
+	width: 81px;
+	height: 83px;
+	position: absolute;
+    left: -50px;
+    margin-top: -25px;
+}*/
+@media (min-width: 1280px){
+	#home-slider:before,
+	.columns-container:before{
+		content: '';
+		width: 100%;
+		height: 346px;
+		background-image:url(../images/cny-elements/cny-theme-bg.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		position: absolute;
+		margin-top: 0px;
+	}
+	.columns-container:before{
+		z-index: -1;
+	}
+}
+
+@media (max-width: 992px){
+	.header-search-box .form-inline:before{
+		left: -20px;
+	}
+}
+
+@media (max-width: 768px){
+    .mobile-bar{
+        background-image: url(../images/cny-elements/wave.png);
+    }
+	.main-header .logo:after{
+		content:"";
+		width: 54px;
+		height: 44px;
+		background-image: url(../images/cny-elements/mobile-cny-logoside.png);
+		display: inline-block;
+		position: absolute;
+		left: 105px;
+		top: 16px;
+		opacity: 0.8;
+	}
+}
+@media (max-width: 540px){
+	.main-header .logo:after{
+		content:"";
+		width: 54px;
+		height: 44px;
+		background-image: url(../images/cny-elements/mobile-cny-logoside.png);
+		display: inline-block;
+		position: absolute;
+		left: 75px;
+		top: 0;
+		opacity: 0.8;
+	}
+}

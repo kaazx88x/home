@@ -1,0 +1,18 @@
+[
+    {
+        "name":"EI",
+        "company_name":"Early Infinity Holding Sdn Bhd",
+        "address":"No. 12A, Jalan Setia Dagang, U13/AK Seksyen U13, Setia Alam, 40170 Shah Alam, Selangor Darul Ehsan.",
+        "tel":"03-38857018",
+        "fax":"03-33596107",
+        "gst_no":"000278155264"
+    },
+    {
+        "name": "MM",
+        "company_name": "Massive Model Sdn Bhd",
+        "address": "No.5, Jalan Setia Dagang U13/AK Seksyen U13, Setia Alam 40170 Shah Alam Selangor",
+        "tel": "03-38853138",
+        "fax": "03-33588245",
+        "gst_no": "000132329472"
+    }
+]
